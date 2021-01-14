@@ -1,0 +1,5 @@
+<div [ngStyle]="{'background-color': color}"></div>
+<label>Pick a color:     
+    <input id="color" type="color" value="#ff0000" [(ngModel)]="color">
+</label>
+<button (click)="changeColor()">Change Color</button>
